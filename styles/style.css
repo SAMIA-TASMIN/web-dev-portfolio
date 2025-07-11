@@ -1,5 +1,5 @@
 
-.open-sans-normal {
+.open-sans-normal{
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
@@ -7,6 +7,9 @@
     "wdth" 100;
 }
 /* Shared style */
+.sec-bg{
+    background-color: #FFF8F3;
+}
 .text-primary{
     color: #FD6E0A;
 }
@@ -22,6 +25,20 @@
     padding: 18px 35px;
     border-radius: 5px;
     
+}
+.section-title{
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+    align-items: center;
+}
+.section-description{
+    font-size: 18px;
+    color: #757575;
+}
+
+.text-center{
+    text-align: center;
 }
 /* header */
 .header{
@@ -53,6 +70,7 @@ nav li a{
     text-decoration: none;
     font-size: 20px;
 }
+/* Banner styles */
 .banner{
     display: flex;
     justify-content: space-between;
@@ -60,7 +78,7 @@ nav li a{
 
 }
 .banner-content{
-    max-width: 584px;
+    max-width: 580px;
 }
 .banner-greetings{
     font-weight: 600;
@@ -73,9 +91,83 @@ nav li a{
 }
 .banner-para{
     font-size: 18px;
-    font-weight: 300;
+    font-weight: 400;
 }
 .banner-pro{
-    height:676;
-    width: 584;
+    height:676px;
+    width: 580px;
+}
+
+
+
+/* Main styles */
+
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+main section{
+    margin-top: 130px;
+    margin-bottom: 130px;
+}
+/* About styles */
+.about{
+    border-radius: 10px;
+    padding: 130px 150px;
+    text-align: center;
+
+
+}
+.about-items{
+    display: flex;
+    justify-content: space-around;
+}
+.open-sans-normal{
+    font-size: 20px;
+}
+
+.item-description{
+    font-weight: bold;
+    font-size: 20px;
+}
+.skill-title{
+    font-size: 20px;
+    font-weight: bold;
+}
+.skill-description{
+    font-size: 16px;
+}
+.skills-container{
+    display: flex;
+    gap: 24px; 
+    
+}
+.skill{
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+.resume-column-title{
+    font-size: 30px;
+    font-weight: bold;
+}
+/* Resume section styles */
+.resume-container{
+    display: flex;
+    gap: 24px;
+}
+.experience-sub-title{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.experience-description, .experience-sub-title{
+    color: #757575;
+}
+.resume hr{
+    margin: 30px 5px;
+}
+.resume-download-cv{
+    margin-top: 50px;
 }
